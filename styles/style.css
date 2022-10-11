@@ -1,0 +1,57 @@
+@import url(./reset.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+h1{
+    font-size: 30pt;
+}
+
+sub{
+    font-size: 15pt;
+}
+
+.header-class{
+    height: 56pt;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: crimson;
+}
+
+div{
+    width: 80%;
+    margin: auto;
+    border: 1px solid #0000ff;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+h2{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20pt;
+}
+
+p{
+    margin: 2px;
+}
+
+p:nth-child(2n){
+    background-color: aqua;
+}
+
+p:nth-child(3){
+    color: indigo;
+}
+
+img{
+    width: 300px;
+    margin: 10px;
+    float: left;
+}
